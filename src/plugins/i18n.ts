@@ -4,12 +4,14 @@ import { menu as esMenu } from '../locales/es/menu';
 import { menu as itMenu } from '../locales/it/menu';
 import { menu as frMenu } from '../locales/fr/menu';
 import { menu as deMenu } from '../locales/de/menu';
+import { menu as nlMenu } from '../locales/nl/menu';
 
-import { menuUiHandler as enMenuUiHandler } from '../locales/en/menu-ui-handler.js';
-import { menuUiHandler as esMenuUiHandler } from '../locales/es/menu-ui-handler.js';
-import { menuUiHandler as frMenuUiHandler } from '../locales/fr/menu-ui-handler.js';
-import { menuUiHandler as itMenuUiHandler } from '../locales/it/menu-ui-handler.js';
-import { menuUiHandler as deMenuUiHandler } from '../locales/de/menu-ui-handler.js';
+import { menuUiHandler as enMenuUiHandler } from '../locales/en/menu-ui-handler';
+import { menuUiHandler as esMenuUiHandler } from '../locales/es/menu-ui-handler';
+import { menuUiHandler as frMenuUiHandler } from '../locales/fr/menu-ui-handler';
+import { menuUiHandler as itMenuUiHandler } from '../locales/it/menu-ui-handler';
+import { menuUiHandler as deMenuUiHandler } from '../locales/de/menu-ui-handler';
+import { menuUiHandler as nlMenuUiHandler } from '../locales/nl/menu-ui-handler';
 
 import { move as enMove } from '../locales/en/move';
 import { move as esMove } from '../locales/es/move';
@@ -160,6 +162,10 @@ export function initI18n(): void {
         pokemonStat: dePokemonStat,
         commandUiHandler: deCommandUiHandler,
         tutorial: deTutorial,
+      },
+      nl: {
+        menu: nlMenu,
+        menuUiHandler: nlMenuUiHandler
       }
     },
   });
