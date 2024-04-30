@@ -189,6 +189,10 @@ export function setSetting(scene: BattleScene, setting: Setting, value: integer)
                 handler: () => changeLocaleHandler('de')
               },
               {
+                label: 'Dutch',
+                handler: () => changeLocaleHandler('nl')
+              },
+              {
                 label: 'Cancel',
                 handler: () => cancelHandler()
               }
